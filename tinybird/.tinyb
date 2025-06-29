@@ -1,0 +1,14 @@
+{
+    "host": "https://api.europe-west2.gcp.tinybird.co",
+    "id": "139af963-4451-49c6-85d7-6730203b0147",
+    "name": "linkTree_clone",
+    "scope": "user",
+    "token": "p.eyJ1IjogIjEzOWFmOTYzLTQ0NTEtNDljNi04NWQ3LTY3MzAyMDNiMDE0NyIsICJpZCI6ICI2NDE1MTg4Ny0xOWQ2LTRmZTEtOTJmMy04MDg2NjhmMmFhMzUiLCAiaG9zdCI6ICJnY3AtZXVyb3BlLXdlc3QyIn0.GC6TYs9-niFWhj42DILr_Kecs_etKCvtbSKx000UEMQ",
+    "tokens": {
+        "https://api.europe-west2.gcp.tinybird.co": "p.eyJ1IjogIjEzOWFmOTYzLTQ0NTEtNDljNi04NWQ3LTY3MzAyMDNiMDE0NyIsICJpZCI6ICI2NDE1MTg4Ny0xOWQ2LTRmZTEtOTJmMy04MDg2NjhmMmFhMzUiLCAiaG9zdCI6ICJnY3AtZXVyb3BlLXdlc3QyIn0.GC6TYs9-niFWhj42DILr_Kecs_etKCvtbSKx000UEMQ"
+    },
+    "user_email": "shadowvictor33@gmail.com",
+    "user_id": "6d4b2f25-0083-4215-8031-1e3bd953ce59",
+    "user_token": "p.eyJ1IjogIjZkNGIyZjI1LTAwODMtNDIxNS04MDMxLTFlM2JkOTUzY2U1OSIsICJpZCI6ICI1MzgzOWU3MS0zMWRmLTRjMjAtYjk4Yi05ZDdiNDc2ZmRjMDYiLCAiaG9zdCI6ICJnY3AtZXVyb3BlLXdlc3QyIn0.SL2Hh43u2wH2uMU9yAIVTuecF9zcS3U8Xf2ToNPMNAk",
+    "version": "0.0.1.dev238"
+}
