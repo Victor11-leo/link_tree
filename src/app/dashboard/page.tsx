@@ -1,52 +1,20 @@
-'use client'
-
-import { Button } from "@/components/ui/button"
-import UsernameForm from '@/components/UsernameForm'
-
-import {
-    SignedIn,
-    SignedOut,
-    SignInButton,
-    UserButton
-} from '@clerk/nextjs'
-import { ClipboardCheck, Copy, ExternalLink, Plus, User } from "lucide-react"
-import { Input } from "@/components/ui/input"
-import Link from "next/link"
-import { useState } from "react"
+import DashboardAnalytics from '@/components/DashboardAnalytics'
+import DashboardUsername from '@/components/DashboardUsername'
+import DashboardLinks from '@/components/DashboardLinks'
 
 const page = () => {
-    
   return (
-    <main className="">        
-        <header className="flex items-center justify-between absolute left-0 lg:left-50 right-0 lg:right-50 mx-10 mt-3  max-w-5xl bg-[#FDF0D5] p-2 rounded-2xl">
-        <h1 className="font-semibold">LinkTree-Clone</h1>
-        <div>
-            <SignedOut>
-                <SignInButton>
-                    <Button>
-                        <User/> Sign In
-                    </Button>
-                </SignInButton>
-            </SignedOut>
-            <SignedIn>
-                <div className="flex items-center gap-2">
-                    <Button><Plus/> Add link</Button>
-                    <Button>Account</Button>
-                    <UserButton/>
-                </div>
-            </SignedIn>
-        </div>
-        </header>
-        <section className="pt-20 max-w-5xl px-4 mx-auto">
-            {/* Analytics */}
-            {/* Customize link */}
-            <UsernameForm/>
+    <div className=''>
+      {/* Analytics */}      
+      <DashboardAnalytics/>
+      <div className='flex flex-col md:flex-row items-start'>
+        {/* Username */}
+        <DashboardUsername/>
 
-
-            {/* Customize page */}
-            {/* Manage links */}
-        </section>
-    </main>
+        {/* Manage links */}
+        <DashboardLinks/>
+      </div>
+    </div>
   )
 }
 
